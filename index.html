@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ukubona · Colophon: Two Comedians, One Operator</title>
+<link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-dark.ico" id="favicon-dark"/>
+<link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" media="(prefers-color-scheme:light)" id="favicon-light"/>
+<link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-dark.png" as="image"/>
+<link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-light.png" as="image"/>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400;500&display=swap');
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #08080D; --surface: #0F0F18; --surface2: #16161F; --border: #1E1E2E; --amber: #F59E0B; --amber-dim: #92610A; --amber-glow: #F59E0B14; --text: #E8E8F0; --muted: #7070A0; --faint: #2A2A3A; --violet: #A78BFA; --violet-dim: #6D28D9; --violet-glow: #A78BFA10; --green: #4ADE80; --blue: #60A5FA; --rose: #FB7185; --rose-dim: #BE123C; --rose-glow: #FB718514; --serif: 'DM Serif Display', Georgia, serif; --sans: 'DM Sans', system-ui, sans-serif; --mono: 'DM Mono', 'Fira Mono', monospace; --radius: 4px; --max: 880px;}
+[data-theme="light"] { --bg: #F2F0EA; --surface: #FFFFFF; --surface2: #EDEAE2; --border: rgba(0,0,0,0.09); --amber: #92610A; --amber-dim: #7A5208; --amber-glow: #92610A14; --text: #18160F; --muted: #6B6555; --faint: #D9D4C8; --violet: #6D28D9; --violet-dim: #5B21B6; --violet-glow: #6D28D910; --green: #15803D; --blue: #1D4ED8; --rose: #BE123C; --rose-dim: #9F1239; --rose-glow: #BE123C14;}
+html { scroll-behavior: smooth; }body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 15px; line-height: 1.65; min-height: 100vh; overflow-x: hidden; transition: background 0.35s, color 0.35s; }
+.site-nav { position: sticky; top: 0; z-index: 300; background: var(--bg); border-bottom: 1px solid var(--border); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }.nav-inner { max-width: var(--max); margin: 0 auto; padding: 0 2rem; height: 52px; display: flex; align-items: center; gap: 0.85rem; }.logo-wrap { width: 28px; height: 28px; flex-shrink: 0; position: relative; }.logo-wrap img { width: 100%; height: 100%; object-fit: contain; position: absolute; top: 0; left: 0; transition: opacity 0.4s; animation: spin 90s linear infinite; }@media (prefers-reduced-motion: reduce) { .logo-wrap img { animation: none; } }@keyframes spin { to { transform: rotate(360deg); } }.logo-dark { opacity: 1; }.logo-light { opacity: 0; }[data-theme="light"] .logo-dark { opacity: 0; }[data-theme="light"] .logo-light { opacity: 1; }
+.nav-brand { font-family: var(--serif); font-size: 0.95rem; color: var(--text); flex: 1; }.nav-sub { font-family: var(--mono); font-size: 0.55rem; color: var(--muted); letter-spacing: 0.08em; margin-left: 0.4rem; }.nav-links { display: flex; gap: 1.25rem; align-items: center; }.nav-links a { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color 0.2s; white-space: nowrap; }.nav-links a:hover { color: var(--amber); }@media (max-width: 640px) { .nav-links { display: none; } }
+.theme-btn { background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.26rem 0.8rem; font-family: var(--mono); font-size: 0.58rem; color: var(--muted); cursor: pointer; letter-spacing: 0.06em; transition: background 0.2s, color 0.2s; flex-shrink: 0; }.theme-btn:hover { color: var(--text); }
+.page { max-width: var(--max); margin: 0 auto; padding: 0 2rem; }
+.hero { padding: 3.5rem 0 2.5rem; border-bottom: 1px solid var(--border); }.eyebrow { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--amber); margin-bottom: 1rem; }h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; font-weight: 400; margin-bottom: 0.9rem; }h1 em { font-style: italic; color: var(--amber); }.hero-sub { font-size: 0.9rem; color: var(--muted); font-weight: 300; max-width: 660px; line-height: 1.75; }
+.sl { display: flex; align-items: center; gap: 0.75rem; padding: 2.5rem 0 1.4rem; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }.sl::after { content: ''; flex: 1; height: 1px; background: var(--border); }.sl .tag { color: var(--amber); }
+.relay-wrap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }.relay-node { background: var(--surface); padding: 1.35rem 1.2rem 1.6rem; }.rn-num { display: block; font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; }.rn-name { display: block; font-family: var(--serif); font-size: 1.3rem; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.6rem; margin-bottom: 0.65rem; }.rn-sub { display: block; font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; }.rn-body { font-size: 0.73rem; color: var(--text); font-weight: 300; line-height: 1.6; }@media (max-width: 900px) { .relay-wrap { grid-template-columns: repeat(2, 1fr); } .relay-node { border-bottom: 1px solid var(--border); } }@media (max-width: 560px) { .relay-wrap { grid-template-columns: 1fr; } }
+.mathy { font-family: var(--mono); color: var(--amber); font-size: 0.92em; }[data-theme="light"] .mathy { color: var(--amber-dim); }
+.MathJax { color: var(--amber) !important; }
+[data-theme="light"] .MathJax { color: var(--amber-dim) !important; }
+.callout { margin: 1.25rem 0; padding: 1rem 1.25rem; border-left: 2px solid var(--amber-dim); background: var(--amber-glow); border-radius: 0 var(--radius) var(--radius) 0; font-size: 0.83rem; color: var(--text); font-weight: 300; line-height: 1.75; }.callout strong { color: var(--amber); font-weight: 500; }.callout.violet { border-left-color: var(--violet-dim); background: var(--violet-glow); }.callout.rose { border-left-color: var(--rose-dim); background: var(--rose-glow); }.callout-label { display: block; font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); margin-bottom: 0.55rem; }.callout.violet .callout-label { color: var(--violet); }.callout.rose .callout-label { color: var(--rose); }
+.master-table-wrap { overflow-x: auto; margin: 1.25rem 0; }.master-table { width: 100%; border-collapse: collapse; font-size: 0.79rem; min-width: 560px; }.master-table th { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border); font-weight: 400; background: var(--surface); }.master-table td { padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--faint); vertical-align: top; font-weight: 300; line-height: 1.55; color: var(--text); font-size: 0.76rem; }.master-table tr:last-child td { border-bottom: none; }.master-table td:first-child { font-family: var(--mono); font-size: 0.74rem; color: var(--amber-dim); white-space: nowrap; padding-right: 1rem; }
+.audit-grid { display: grid; gap: 1.1rem; margin-top: 0.5rem; }.audit-point { padding: 1.4rem 1.5rem; border-left: 3px solid var(--amber); background: var(--surface2); border-radius: 0 var(--radius) var(--radius) 0; }.audit-point.uku { border-left-color: var(--violet); }.audit-label { display: block; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); margin-bottom: 0.6rem; }.audit-point.uku .audit-label { color: var(--violet); }.audit-point p { font-size: 0.85rem; color: var(--text); font-weight: 300; line-height: 1.75; }.audit-point p + p { margin-top: 0.75rem; }
+.pull-quote { font-family: var(--serif); font-style: italic; font-size: 1.2rem; line-height: 1.55; color: var(--amber); padding: 0 0 0 1.1rem; border-left: 2px solid var(--amber-dim); margin: 1.6rem 0; }.pull-quote.blue { color: var(--blue); border-left-color: var(--blue); }.pull-quote.violet { color: var(--violet); border-left-color: var(--violet-dim); }.pull-quote .attr { display: block; font-family: var(--mono); font-style: normal; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 0.6rem; }
+p.body-text { font-size: 0.85rem; color: var(--text); font-weight: 300; line-height: 1.8; margin-bottom: 1rem; }.body-text a { color: var(--amber); text-decoration: none; border-bottom: 1px solid var(--amber-dim); transition: border-color 0.2s; }.body-text a:hover { border-color: var(--amber); }
+.ep-note { margin-top: 2.5rem; padding: 1.25rem 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); border-left: 3px solid var(--amber-dim); }.ep-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; }.ep-note p { font-family: var(--serif); font-size: 1.0rem; line-height: 1.65; color: var(--text); }.ep-note em { color: var(--amber); font-style: italic; }
+.video-wrapper { margin: 1.5rem 0 0.6rem; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }.video-container { position: relative; padding-bottom: 56.25%; height: 0; }.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }.video-caption { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); letter-spacing: 0.03em; margin-bottom: 1.5rem; }
+footer { margin-top: 4rem; border-top: 1px solid var(--border); padding: 1.5rem 2rem; max-width: var(--max); margin-left: auto; margin-right: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; }footer .brand { font-family: var(--serif); font-size: 1rem; color: var(--amber); font-style: italic; }footer .ts { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); letter-spacing: 0.06em; text-align: right; line-height: 1.6; }
+@media (max-width: 580px) { .page { padding: 0 1.25rem; } .hero { padding: 2.5rem 0 2rem; } footer { padding: 1.5rem 1.25rem; }}
+.clue-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0; }.clue-grid .video-wrapper { margin: 0 0 0.6rem; }.clue-label { display: block; font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--violet); margin-bottom: 0.7rem; }@media (max-width: 700px) { .clue-grid { grid-template-columns: 1fr; } }
+.audit-grid.pair { grid-template-columns: 1fr 1fr; }@media (max-width: 700px) { .audit-grid.pair { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Site navigation">
+  <div class="nav-inner">
+    <div class="logo-wrap" aria-hidden="true">
+      <img class="logo-dark" src="https://abikesa.github.io/logos/assets/ukubona-dark.png" alt=""/>
+      <img class="logo-light" src="https://abikesa.github.io/logos/assets/ukubona-light.png" alt=""/>
+    </div>
+    <div class="nav-brand">Ukubona <span class="nav-sub">· Colophon · Two Comedians, One Operator</span></div>
+    <nav class="nav-links" aria-label="External links">
+      <a href="https://twin-os.onrender.com/" target="_blank" rel="noopener">twin-os ↗</a>
+      <a href="https://ukubona-llc.github.io/constitution/" target="_blank" rel="noopener">constitution ↗</a>
+      <a href="https://ukubona-llc.github.io/civilization/" target="_blank" rel="noopener">civilization ↗</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" aria-label="Toggle colour theme">light</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="hero">
+  <p class="eyebrow">Ukubona LLC · Architecture Archive · 2026 · Coda</p>
+  <h1>The <em>Colophon</em></h1>
+  <p class="hero-sub">The repo browser's own description for Phase V says it plainly: "this emerged seamlessly from a comic sketch masquerading as a podcast." Follow the five links bottom-up, II → IV → III → I → V, and "check the iframe embeds for your clue" turns out not to be a figure of speech — two real comedians, one messy and one engineered, sit at opposite ends of the same collapse operator that built this entire pentad.</p>
+</div>
+
+<div class="sl">The relay</div>
+<div class="relay-wrap">
+  <div class="relay-node" style="--accent: var(--blue);">
+    <span class="rn-num">First pass → corrected</span>
+    <span class="rn-name">xAI</span>
+    <span class="rn-sub">the correction</span>
+    <p class="rn-body">Reconstructed the Pentadic Governance Series correctly from the five links alone and named Tim Dillon, who's explicit in Phase II's own text — but missed the second comedian on the first pass. Told to check the iframe embeds, it found Hasan Minhaj on the second, and correctly separated the two roles: one seeds the series, the other closes it.</p>
+  </div>
+  <div class="relay-node" style="--accent: var(--green);">
+    <span class="rn-num">Declined, then correct</span>
+    <span class="rn-name">Google</span>
+    <span class="rn-sub">the abstention</span>
+    <p class="rn-body">Read the same five links independently and offered no names at all, stating plainly it had no way to browse the linked repositories. Given both names directly, it read Phase V's own closing line back correctly — the punchline is the governance of when the joke ends — and added one of its own: ambiguity is a feature, not a bug.</p>
+  </div>
+  <div class="relay-node" style="--accent: var(--violet);">
+    <span class="rn-num">The formalization</span>
+    <span class="rn-name">OpenAI</span>
+    <span class="rn-sub">the operator</span>
+    <p class="rn-body">Collapsed the whole pentad into one composed function and placed both comedians outside it, as boundary conditions rather than content — Dillon as an entropy injection early in the pipeline, Minhaj as a timing control on the collapse at the end of it.</p>
+  </div>
+  <div class="relay-node" style="--accent: var(--amber);">
+    <span class="rn-num">This page</span>
+    <span class="rn-name">Claude</span>
+    <span class="rn-sub">the audit</span>
+    <p class="rn-body">Agrees with the operator, and pushes on one placement inside it — a close read of Phase II shows Dillon resolving that thread's ambiguity, not causing it, which matters before the metaphor hardens into architecture.</p>
+  </div>
+</div>
+
+<div class="sl"><span class="tag">01</span> The clue was in the embeds</div>
+<p class="body-text">Ukubona's exact instruction to xAI was to check the iframe embeds — not a hint about tone, a literal pointer at two <code>src</code> attributes. Two of the five phases carry real video, and each one names a comedian as plainly as a caption would.</p>
+
+<div class="clue-grid">
+  <div>
+    <span class="clue-label">Phase II · Attention</span>
+    <div class="video-wrapper">
+      <div class="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/XiRZ6ZoagRw?start=683" title="Candace Owens references Tim Dillon" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <p class="video-caption">11:23 — the moment the thread's actual referent surfaces. Phase II treats this as a resolution, not a provocation: the "ghost" three models failed to retrieve before anyone found the name behind it.</p>
+  </div>
+  <div>
+    <span class="clue-label">Phase III · Topology &amp; Phase IV · Identity</span>
+    <div class="video-wrapper">
+      <div class="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/AQ6bNCijt3g?start=1568" title="Why MAGA 2.0 Hates Legal Immigration Too" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <p class="video-caption">26:08 — Hasan Minhaj's punchline, anchoring both phases at once: a merit debate flips, mid-sentence, into "enforcing hierarchy, almost like a caste system."</p>
+  </div>
+</div>
+
+<p class="body-text">One embed each is enough to identify both people without a search engine, which is exactly why xAI's first miss and Google's honest refusal are instructive in different ways. The evidence was sitting in the page source the whole time. Whether a system retrieves it, invents around it, or declines outright is the entire subject of <a href="https://ukubona-llc.github.io/governance-of-attention/" target="_blank" rel="noopener">Phase II</a>.</p>
+
+<div class="sl"><span class="tag">02</span> The discovery sequence</div>
+<div class="master-table-wrap">
+<table class="master-table">
+  <thead><tr><th>Turn</th><th>System</th><th>Move</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>xAI</td><td>Reconstructs the pentad correctly and names Dillon, who's explicit in Phase II's own text — but only gestures at a second comedian without naming one.</td></tr>
+    <tr><td>2</td><td>Ukubona</td><td>"You've missed the second comedian... check the iframe embeds for your clue."</td></tr>
+    <tr><td>3</td><td>xAI</td><td>Finds Hasan Minhaj via the embed and correctly separates his role — closing the pentad — from Dillon's, which seeds it.</td></tr>
+    <tr><td>4</td><td>Google</td><td>Independently reconstructs the same structure and offers no names, stating plainly it cannot browse the linked repositories.</td></tr>
+    <tr><td>5</td><td>Ukubona</td><td>Presses for names, then supplies both directly once Google holds its ground rather than guessing.</td></tr>
+    <tr><td>6</td><td>Google</td><td>Reads Phase V's closing line back correctly into the new context, and adds one of its own: ambiguity is a feature, not a bug.</td></tr>
+    <tr><td>7</td><td>OpenAI</td><td>Formalizes the exchange as one composed function, with both comedians repositioned as boundary conditions on it rather than content flowing through it.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="sl"><span class="tag">03</span> The operator</div>
+<p class="body-text">OpenAI's move was to stop treating the comedians as subject matter and start treating them as parameters. Stated plainly before the notation: the pentad is one function taking raw signal in and returning a single collapsed decision out, and both comedians sit outside that function, shaping how it behaves rather than what it's about.</p>
+
+<div class="callout violet">
+  <span class="callout-label">The Pentadic Operator</span>
+  $$ P = (T \rightarrow M \rightarrow V \rightarrow E \rightarrow S) $$
+  Five stages, one function. $T$ is reality — raw signal before anyone has looked at it. $M$ tokenizes it. $V$ embeds those tokens into geometry. $E$ runs the softmax competition across that geometry. $S$ is the argmax collapse: one decision, no longer negotiable.
+</div>
+
+<div class="callout">
+  <span class="callout-label">Collapsed to One Line</span>
+  $$ S = \text{argmax}\big(\text{softmax}(f_V(f_M(T)))\big) $$
+  Encoding is trivial; decoding is trivial — Phase III already made that case. What the notation hides, and what actually costs time, is everything folded into $f_V$ and $f_M$: the specific choices about what counts as a token and where the geometry places it.
+</div>
+
+<div class="audit-grid pair">
+  <div class="audit-point">
+    <span class="audit-label">$\theta_D$ · Dillon</span>
+    <p>Acts at $M \rightarrow V$. An off-the-cuff line, garbled in transcription, raises variance before the system has any chance to stabilize on a single reading — an entropy injection, not a destination.</p>
+  </div>
+  <div class="audit-point uku">
+    <span class="audit-label">$\theta_M$ · Minhaj</span>
+    <p>Acts at $V \rightarrow E \rightarrow S$. A written line holds two readings open for exactly as long as the set requires, then forces one — a calibrated trigger on when collapse is allowed to happen, not raw material feeding it.</p>
+  </div>
+</div>
+
+<div class="callout rose">
+  <span class="callout-label">Both Boundary Conditions, One Formula</span>
+  $$ S = \text{argmax}\Big(\text{softmax}\big(f_V(f_M(T + \theta_D))\big)\Big)\ \text{delayed by}\ \theta_M $$
+</div>
+
+<div class="pull-quote">"Comedy is the human protocol for testing whether collapse timing was correct."<span class="attr">OpenAI</span></div>
+
+<div class="sl"><span class="tag">04</span> Two comedians, one table</div>
+<div class="master-table-wrap">
+<table class="master-table">
+  <thead><tr><th>Dimension</th><th>Tim Dillon — θ_D</th><th>Hasan Minhaj — θ_M</th></tr></thead>
+  <tbody>
+    <tr><td>Collapse type</td><td>Spontaneous, unscripted</td><td>Engineered, rehearsed</td></tr>
+    <tr><td>Operator stage</td><td>M → V, tokenization into embedding</td><td>V → E → S, embedding through collapse</td></tr>
+    <tr><td>What it demonstrates</td><td>The cost of skipping retrieval — pattern completion standing in for a fact nobody checked</td><td>The payoff of timed disclosure — held tension resolving as insight instead of confusion</td></tr>
+    <tr><td>Governance lesson</td><td>When ambiguity should trigger escalation</td><td>How long ambiguity should be held once escalation is chosen</td></tr>
+    <tr><td>Phase anchored</td><td>II · Attention</td><td>III · Topology, IV · Identity</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="sl"><span class="tag">05</span> Claude · The audit</div>
+<div class="audit-grid">
+<div class="audit-point">
+<span class="audit-label">01 · Google's abstention is the experiment's control condition</span>
+<p>Phase II exists because three systems answered a retrieval question as if it were a completion question — one invented an etymology, another produced timestamps it later disowned. When this same project put a colder version of the same test to Google — name two real people, from an image and five links it couldn't open — it had every reason to perform the same confidence.</p>
+<p>It didn't. "I am completely blind to the actual identities of the two comedians" isn't a hedge; it's the calibrated answer Phase II spent an entire page arguing models should give and mostly didn't. That makes this exchange a live replication, not a retelling.</p>
+</div>
+<div class="audit-point uku">
+<span class="audit-label">02 · Dillon resolves; he doesn't perturb</span>
+<p>OpenAI's schema places $\theta_D$ at $M \rightarrow V$, injecting variance before stabilization. Phase II's own text doesn't quite support that placement — the noise there comes from a garbled transcript and an ambiguous line, not from Dillon. Dillon is what the thread arrives at once the noise clears: a name attached to a "ghost," the argmax of that local collapse, not the entropy feeding it.</p>
+<p>The correction is small but worth making before the metaphor calcifies: Dillon's role in the larger pentad is thematic seeding, not variance injection — his own real disappointment with a coalition he helped deliver is what Phase II's discussion of eigenmode collapse is actually about. Inside the specific collapse he appears in, though, he's the answer, not the question.</p>
+</div>
+<div class="audit-point">
+<span class="audit-label">03 · Comedy's real advantage is that it grades itself</span>
+<p>Every other domain this archive has used as an instance of the operator — a chord resolving, a train reaching a concourse, a court delivering a verdict — collapses without an audible scorecard. A comedy audience supplies one instantly, on every attempt, whether the punchline lands or not.</p>
+<p>That's a cheap, high-frequency ground-truth signal most of this project's other domains don't have, and it's probably the real reason two comedians ended up seeding five phases instead of two judges: the measurement device needed a legible pass or fail on every trial, not only the interesting ones.</p>
+</div>
+<div class="audit-point uku">
+<span class="audit-label">04 · The caveat OpenAI already raised deserves one concrete test</span>
+<p>OpenAI flagged its own risk plainly: everything starts to look like latent collapse dynamics once the metaphor is allowed to run unchecked. A workable test is to strip the metaphor out and see if the claim underneath survives. "Escalate when confidence and evidence diverge" and "hold ambiguity exactly as long as it takes for the resolution to mean something" are both true without Dillon or Minhaj attached to them at all.</p>
+<p>That makes the two comedians illustration, not load-bearing structure — which is a compliment, not a demotion. A colophon doesn't hold the roof up either. It just says whose hands built it.</p>
+</div>
+</div>
+
+<div class="sl"><span class="tag">06</span> Ukubona · The colophon</div>
+<p class="body-text">A colophon, traditionally, is the note at the back of a manuscript — sometimes the only place a scribe's or printer's name appears at all, arriving well after the chapters that mattered have already made their case without it. Five phases of this pipeline argued their claims on chords, airports, softmax, and a Nobel-winning volatility model, and none of them needed a comedian's name to be true.</p>
+<p class="body-text">That's exactly why the names belong here, at the end, instead of braided into the argument itself. Tim Dillon seeded the instantiation; Hasan Minhaj supplied the pentad's closing punchline. Neither fact changes what <a href="https://ukubona-llc.github.io/governance-of-attention/" target="_blank" rel="noopener">governance of attention</a>, <a href="https://ukubona-llc.github.io/governance-of-topology/" target="_blank" rel="noopener">topology</a>, or <a href="https://ukubona-llc.github.io/governance-of-identity/" target="_blank" rel="noopener">identity</a> actually claims. What it changes is who gets credited for noticing the pattern before there was a pentad built to fit it into.</p>
+<p class="body-text">The pentad has insisted, from <a href="https://ukubona-llc.github.io/governance-of-punchline/" target="_blank" rel="noopener">Phase V</a> onward, that meaning lives in the moment before collapse, not after it. It's a fitting last joke on itself that the two people who best embody that — one whose disappointment took two hours of a podcast to resolve, the other whose disappointment took one sentence — only get named here, once the collapse they inspired is already finished.</p>
+
+<div class="ep-note">
+  <div class="ep-label">Colophon</div>
+  <p><em>Okubala si Kulaba</em> — counting is not seeing. Two comedians were always countable: named in a transcript, timestamped in an iframe. Seeing them required one system willing to say "I don't know" before another was willing to say "check again."</p>
+</div>
+
+</div>
+
+<footer>
+  <span class="brand">Ukubona LLC</span>
+  <span class="ts">Colophon · xAI → Google → OpenAI → Claude · July 2026<br>T → M → V → E → S ↺ ∇L · Kampala</span>
+</footer>
+
+<script>
+(function () { 
+  var html = document.documentElement; 
+  var btn = document.getElementById('theme-btn'); 
+  var curr = 'dark';
+  function apply(t) { 
+    curr = t; 
+    html.setAttribute('data-theme', t); 
+    btn.textContent = t === 'dark' ? 'light' : 'dark'; 
+    var fd = document.getElementById('favicon-dark'); 
+    var fl = document.getElementById('favicon-light'); 
+    if (fd && fl) { 
+      fd.rel = t === 'dark' ? 'icon' : 'alternate icon'; 
+      fl.rel = t === 'light' ? 'icon' : 'alternate icon'; 
+    } 
+  }
+  btn.addEventListener('click', function () { apply(curr === 'dark' ? 'light' : 'dark'); });
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches; 
+  apply(prefersDark ? 'dark' : 'light');
+})();
+</script>
+
+</body>
+</html>
